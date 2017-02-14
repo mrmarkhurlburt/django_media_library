@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '3r%3i)(h2++r#cn5*(8dt!cab5#zeu
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = False
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+#DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 ALLOWED_HOSTS = ['safe-stream-98842.herokuapp.com','127.0.0.1']
 
 
