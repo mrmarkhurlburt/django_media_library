@@ -24,6 +24,7 @@ var/
 .installed.cfg
 *.egg
 *.lnk
+.env
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -86,10 +87,20 @@ ENV/
 # Spyder project settings
 .spyderproject
 
+# staticfiles
+staticfiles/
+
 # Rope project settings
 .ropeproject
 # Text backup files
 *.bak
 
-#Database
+# Database
 *.sqlite3
+/postgres
+
+# windows files
+
+desktop.ini
+Procfile.windows
+
